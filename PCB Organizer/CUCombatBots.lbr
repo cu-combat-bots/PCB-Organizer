@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -143,6 +143,36 @@
 <circle x="7.747" y="-20.066" radius="0.889" width="0.127" layer="21"/>
 <text x="2.54" y="17.145" size="1.27" layer="21">VIN</text>
 </package>
+<package name="V8FR-II">
+<wire x1="-11" y1="16.75" x2="-11" y2="-16.75" width="0.127" layer="21"/>
+<wire x1="-11" y1="-16.75" x2="11" y2="-16.75" width="0.127" layer="21"/>
+<wire x1="11" y1="-16.75" x2="11" y2="16.75" width="0.127" layer="21"/>
+<wire x1="11" y1="16.75" x2="-11" y2="16.75" width="0.127" layer="21"/>
+<pad name="GND_8" x="-8.89" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_7" x="-6.35" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_6" x="-3.81" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_5" x="-1.27" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_4" x="1.27" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_3" x="3.81" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_2" x="6.35" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_1" x="8.89" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_8" x="-8.89" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_7" x="-6.35" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_6" x="-3.81" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_5" x="-1.27" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_4" x="1.27" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_3" x="3.81" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_2" x="6.35" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_1" x="8.89" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="8" x="-8.89" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="7" x="-6.35" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="6" x="-3.81" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="5" x="-1.27" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="4" x="1.27" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="3" x="3.81" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="6.35" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="1" x="8.89" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_NANO">
@@ -185,6 +215,24 @@
 <text x="-10.16" y="15.748" size="1.524" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-35.56" size="1.524" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="V8FR-II">
+<pin name="VIN" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="1" x="12.7" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="3" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="4" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="5" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="6" x="12.7" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="7" x="12.7" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="middle"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.922" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-14.732" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_NANO" prefix="U">
@@ -224,6 +272,30 @@
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RST@17" pad="RST@17"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V8FR-II" prefix="U">
+<gates>
+<gate name="G$1" symbol="V8FR-II" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="V8FR-II">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="GND" pad="GND_1 GND_2 GND_3 GND_4 GND_5 GND_6 GND_7 GND_8" route="any"/>
+<connect gate="G$1" pin="VIN" pad="VIN_1 VIN_2 VIN_3 VIN_4 VIN_5 VIN_6 VIN_7 VIN_8"/>
 </connects>
 <technologies>
 <technology name=""/>

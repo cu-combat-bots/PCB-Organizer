@@ -259,38 +259,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-9.271" y1="-21.59" x2="9.271" y2="-21.59" width="0.127" layer="21"/>
 <wire x1="9.271" y1="-21.59" x2="9.271" y2="21.59" width="0.127" layer="21"/>
 <wire x1="9.271" y1="21.59" x2="-9.271" y2="21.59" width="0.127" layer="21"/>
-<pad name="D1TX" x="-7.62" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="D1TX" x="-7.62" y="17.78" drill="1.016" diameter="1.8796"/>
 <circle x="-7.747" y="20.066" radius="0.889" width="0.127" layer="21"/>
-<pad name="D0RX" x="-7.62" y="15.24" drill="1.016" diameter="1.778"/>
-<pad name="RST" x="-7.62" y="12.7" drill="1.016" diameter="1.778"/>
-<pad name="GND" x="-7.62" y="10.16" drill="1.016" diameter="1.778"/>
-<pad name="D2" x="-7.62" y="7.62" drill="1.016" diameter="1.778"/>
-<pad name="D3" x="-7.62" y="5.08" drill="1.016" diameter="1.778"/>
-<pad name="D4" x="-7.62" y="2.54" drill="1.016" diameter="1.778"/>
-<pad name="D5" x="-7.62" y="0" drill="1.016" diameter="1.778"/>
-<pad name="D6" x="-7.62" y="-2.54" drill="1.016" diameter="1.778"/>
-<pad name="D7" x="-7.62" y="-5.08" drill="1.016" diameter="1.778"/>
-<pad name="D8" x="-7.62" y="-7.62" drill="1.016" diameter="1.778"/>
-<pad name="D9" x="-7.62" y="-10.16" drill="1.016" diameter="1.778"/>
-<pad name="D10" x="-7.62" y="-12.7" drill="1.016" diameter="1.778"/>
-<pad name="D11" x="-7.62" y="-15.24" drill="1.016" diameter="1.778"/>
+<pad name="D0RX" x="-7.62" y="15.24" drill="1.016" diameter="1.8796"/>
+<pad name="RST" x="-7.62" y="12.7" drill="1.016" diameter="1.8796"/>
+<pad name="GND" x="-7.62" y="10.16" drill="1.016" diameter="1.8796"/>
+<pad name="D2" x="-7.62" y="7.62" drill="1.016" diameter="1.8796"/>
+<pad name="D3" x="-7.62" y="5.08" drill="1.016" diameter="1.8796"/>
+<pad name="D4" x="-7.62" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="D5" x="-7.62" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="D6" x="-7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="D7" x="-7.62" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="D8" x="-7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="D9" x="-7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
+<pad name="D10" x="-7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
+<pad name="D11" x="-7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
 <circle x="-7.747" y="-20.066" radius="0.889" width="0.127" layer="21"/>
-<pad name="D12" x="-7.62" y="-17.78" drill="1.016" diameter="1.778"/>
-<pad name="VIN" x="7.62" y="17.78" drill="1.016" diameter="1.778"/>
-<pad name="GND_@16" x="7.62" y="15.24" drill="1.016" diameter="1.778"/>
-<pad name="RST@17" x="7.62" y="12.7" drill="1.016" diameter="1.778"/>
-<pad name="5V" x="7.62" y="10.16" drill="1.016" diameter="1.778"/>
-<pad name="A0" x="7.62" y="7.62" drill="1.016" diameter="1.778"/>
-<pad name="A1" x="7.62" y="5.08" drill="1.016" diameter="1.778"/>
-<pad name="A2" x="7.62" y="2.54" drill="1.016" diameter="1.778"/>
-<pad name="A3" x="7.62" y="0" drill="1.016" diameter="1.778"/>
-<pad name="A4" x="7.62" y="-2.54" drill="1.016" diameter="1.778"/>
-<pad name="A5" x="7.62" y="-5.08" drill="1.016" diameter="1.778"/>
-<pad name="A6" x="7.62" y="-7.62" drill="1.016" diameter="1.778"/>
-<pad name="A7" x="7.62" y="-10.16" drill="1.016" diameter="1.778"/>
-<pad name="AREF" x="7.62" y="-12.7" drill="1.016" diameter="1.778"/>
-<pad name="3V3" x="7.62" y="-15.24" drill="1.016" diameter="1.778"/>
-<pad name="D13" x="7.62" y="-17.78" drill="1.016" diameter="1.778"/>
+<pad name="D12" x="-7.62" y="-17.78" drill="1.016" diameter="1.8796"/>
+<pad name="VIN" x="7.62" y="17.78" drill="1.016" diameter="1.8796"/>
+<pad name="GND_@16" x="7.62" y="15.24" drill="1.016" diameter="1.8796"/>
+<pad name="RST@17" x="7.62" y="12.7" drill="1.016" diameter="1.8796"/>
+<pad name="5V" x="7.62" y="10.16" drill="1.016" diameter="1.8796"/>
+<pad name="A0" x="7.62" y="7.62" drill="1.016" diameter="1.8796"/>
+<pad name="A1" x="7.62" y="5.08" drill="1.016" diameter="1.8796"/>
+<pad name="A2" x="7.62" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="A3" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="A4" x="7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="A5" x="7.62" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="A6" x="7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="A7" x="7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
+<pad name="AREF" x="7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
+<pad name="3V3" x="7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
+<pad name="D13" x="7.62" y="-17.78" drill="1.016" diameter="1.8796"/>
 <text x="-6.35" y="17.145" size="1.27" layer="21">D1TX</text>
 <text x="-6.35" y="14.605" size="1.27" layer="21">D0RX</text>
 <text x="-6.35" y="12.065" size="1.27" layer="21">RST</text>
@@ -322,6 +322,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.175" y="-18.415" size="1.27" layer="21">D13</text>
 <circle x="7.747" y="20.066" radius="0.889" width="0.127" layer="21"/>
 <circle x="7.747" y="-20.066" radius="0.889" width="0.127" layer="21"/>
+<text x="2.54" y="17.145" size="1.27" layer="21">VIN</text>
+</package>
+<package name="V8FR-II">
+<wire x1="-11" y1="16.75" x2="-11" y2="-16.75" width="0.127" layer="21"/>
+<wire x1="-11" y1="-16.75" x2="11" y2="-16.75" width="0.127" layer="21"/>
+<wire x1="11" y1="-16.75" x2="11" y2="16.75" width="0.127" layer="21"/>
+<wire x1="11" y1="16.75" x2="-11" y2="16.75" width="0.127" layer="21"/>
+<pad name="GND_8" x="-8.89" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_7" x="-6.35" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_6" x="-3.81" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_5" x="-1.27" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_4" x="1.27" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_3" x="3.81" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_2" x="6.35" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="GND_1" x="8.89" y="15.24" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_8" x="-8.89" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_7" x="-6.35" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_6" x="-3.81" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_5" x="-1.27" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_4" x="1.27" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_3" x="3.81" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_2" x="6.35" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="VIN_1" x="8.89" y="12.7" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="8" x="-8.89" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="7" x="-6.35" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="6" x="-3.81" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="5" x="-1.27" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="4" x="1.27" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="3" x="3.81" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="6.35" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="1" x="8.89" y="10.16" drill="1.016" diameter="1.8796" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -364,6 +395,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
 <text x="-10.16" y="15.748" size="1.524" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-35.56" size="1.524" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="V8FR-II">
+<pin name="VIN" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="1" x="12.7" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="3" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="4" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="5" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="6" x="12.7" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="7" x="12.7" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="middle"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.922" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-14.732" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -411,6 +460,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="V8FR-II" prefix="U">
+<gates>
+<gate name="G$1" symbol="V8FR-II" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="V8FR-II">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="GND" pad="GND_1 GND_2 GND_3 GND_4 GND_5 GND_6 GND_7 GND_8" route="any"/>
+<connect gate="G$1" pin="VIN" pad="VIN_1 VIN_2 VIN_3 VIN_4 VIN_5 VIN_6 VIN_7 VIN_8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="5V">
+<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5V" prefix="SUPPLY">
+<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -425,6 +560,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="U1" library="CUCombatBots" deviceset="ARDUINO_NANO" device=""/>
+<part name="U2" library="CUCombatBots" deviceset="V8FR-II" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -440,14 +580,158 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="U1" gate="G$1" x="60.96" y="246.38" smashed="yes">
-<attribute name="NAME" x="50.8" y="262.128" size="1.524" layer="95"/>
-<attribute name="VALUE" x="50.8" y="210.82" size="1.524" layer="96"/>
+<instance part="U1" gate="G$1" x="73.66" y="251.46" smashed="yes">
+<attribute name="NAME" x="63.5" y="267.208" size="1.524" layer="95"/>
+<attribute name="VALUE" x="63.5" y="215.9" size="1.524" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="149.86" y="251.46" smashed="yes">
+<attribute name="NAME" x="142.24" y="262.382" size="1.27" layer="95"/>
+<attribute name="VALUE" x="142.24" y="236.728" size="1.27" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="132.08" y="233.68" smashed="yes">
+<attribute name="VALUE" x="132.08" y="233.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND2" gate="1" x="48.26" y="246.38" smashed="yes">
+<attribute name="VALUE" x="48.26" y="246.126" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="48.26" y="266.7" smashed="yes">
+<attribute name="VALUE" x="48.26" y="269.494" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="132.08" y="264.16" smashed="yes">
+<attribute name="VALUE" x="132.08" y="266.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="5V" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="137.16" y1="259.08" x2="132.08" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+<wire x1="132.08" y1="259.08" x2="132.08" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="5V"/>
+<wire x1="58.42" y1="261.62" x2="48.26" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<wire x1="48.26" y1="261.62" x2="48.26" y2="266.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CH1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="259.08" x2="170.18" y2="259.08" width="0.1524" layer="91"/>
+<label x="165.1" y="259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D6"/>
+<wire x1="58.42" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
+<label x="50.8" y="223.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="256.54" x2="170.18" y2="256.54" width="0.1524" layer="91"/>
+<label x="165.1" y="256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D7"/>
+<wire x1="58.42" y1="220.98" x2="50.8" y2="220.98" width="0.1524" layer="91"/>
+<label x="50.8" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH3" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="3"/>
+<wire x1="162.56" y1="254" x2="170.18" y2="254" width="0.1524" layer="91"/>
+<label x="165.1" y="254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D8"/>
+<wire x1="86.36" y1="238.76" x2="96.52" y2="238.76" width="0.1524" layer="91"/>
+<label x="91.44" y="238.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH4" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="4"/>
+<wire x1="162.56" y1="251.46" x2="170.18" y2="251.46" width="0.1524" layer="91"/>
+<label x="165.1" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D9"/>
+<wire x1="86.36" y1="236.22" x2="96.52" y2="236.22" width="0.1524" layer="91"/>
+<label x="91.44" y="236.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH5" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="5"/>
+<wire x1="162.56" y1="248.92" x2="170.18" y2="248.92" width="0.1524" layer="91"/>
+<label x="165.1" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D10"/>
+<wire x1="86.36" y1="233.68" x2="96.52" y2="233.68" width="0.1524" layer="91"/>
+<label x="91.44" y="233.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH6" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="6"/>
+<wire x1="162.56" y1="246.38" x2="170.18" y2="246.38" width="0.1524" layer="91"/>
+<label x="165.1" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D11"/>
+<wire x1="86.36" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
+<label x="91.44" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH7" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="7"/>
+<wire x1="162.56" y1="243.84" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
+<label x="165.1" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D12"/>
+<wire x1="86.36" y1="228.6" x2="96.52" y2="228.6" width="0.1524" layer="91"/>
+<label x="91.44" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CH8" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="8"/>
+<wire x1="162.56" y1="241.3" x2="170.18" y2="241.3" width="0.1524" layer="91"/>
+<label x="165.1" y="241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D13"/>
+<wire x1="86.36" y1="226.06" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
+<label x="91.44" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="137.16" y1="241.3" x2="132.08" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="132.08" y1="236.22" x2="132.08" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="58.42" y1="254" x2="48.26" y2="254" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="254" x2="48.26" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@16"/>
+<wire x1="48.26" y1="251.46" x2="58.42" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="251.46" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
+<junction x="48.26" y="251.46"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
