@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -226,6 +226,12 @@
 <text x="9.525" y="-3.81" size="1.27" layer="21" align="center-right">A-</text>
 <text x="9.525" y="-6.35" size="1.27" layer="21" align="center-right">A+</text>
 </package>
+<package name="CONN_2_10AUG">
+<pad name="-" x="-3.175" y="0" drill="2.794" diameter="4.445" shape="square"/>
+<pad name="+" x="3.175" y="0" drill="2.794" diameter="4.445"/>
+<text x="-3.175" y="3.175" size="2.54" layer="21" align="center">-</text>
+<text x="3.175" y="3.175" size="2.54" layer="21" align="center">+</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_NANO">
@@ -311,6 +317,18 @@
 <wire x1="7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
 <text x="-10.16" y="16.002" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-27.432" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BATT_CONN">
+<pin name="+" x="7.62" y="2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<pin name="-" x="7.62" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="2.54" layer="95" align="center">+</text>
+<text x="0" y="0" size="2.54" layer="95" align="center">-</text>
+<text x="-2.54" y="5.588" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-4.318" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -407,6 +425,22 @@
 <connect gate="G$1" pin="VM" pad="VM"/>
 <connect gate="G$1" pin="VREFA" pad="VREFA"/>
 <connect gate="G$1" pin="VREFB" pad="VREFB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATT" prefix="J">
+<gates>
+<gate name="G$1" symbol="BATT_CONN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_2_10AUG">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
